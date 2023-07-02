@@ -28,7 +28,6 @@ function checkForSpam(message) {
 
   return result;
 }
-
 ```
 
 ## Experience
