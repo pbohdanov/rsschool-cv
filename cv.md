@@ -13,7 +13,7 @@ Passionate about performance optimization, automation, containerization and orch
 ## Skills
 
 - HTML/CSS
-- JavaScript
+- JavaScript (Basic)
 - DevTools, Jmeter, Fiddler, Jira, SQL (Basic)
 - Git\Github
 - VS Code
