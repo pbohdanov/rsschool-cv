@@ -12,10 +12,10 @@ Passionate about performance optimization, automation, containerization and orch
 
 ## Skills
 
-- HTML/CSS
-- JavaScript (Basic)
-- DevTools, Jmeter, Fiddler, Jira, SQL (Basic)
 - Git\Github
+- HTML\CSS
+- JavaScript
+- DevTools, Jmeter, Fiddler, Jira, SQL
 - VS Code
 
 ## Code example
