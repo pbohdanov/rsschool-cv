@@ -1,9 +1,244 @@
 <!DOCTYPE html>
-<!-- <html lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=My, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>My resume</title>
   </head>
-  <body></body>
-</html> -->
+  <body>
+    <!-- Wrapper -->
+    <div class="wrapper">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- About me -->
+        <div class="about-me-container">
+          <h2 class="my-profession">Front-End Developer</h2>
+          <h1 class="my-name">Potap Bohdanov</h1>
+          <p class="my-descr">
+            Passionate about performance optimization, automation,
+            containerization and orchestration in cloud.
+          </p>
+        </div>
+
+        <!-- My projects -->
+        <div class="projects-container">
+          <h3 class="main-content-title">Projects</h3>
+          <ol class="project-list">
+            <li class="project-item">
+              <a href="#" class="project-item-link"
+                >https://big.project1.coming.soon/</a
+              >
+              <span class="project-item-descr"
+                >..................................[ HTML5, CSS3 ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a href="#" class="project-item-link"
+                >https://big.project2.coming.soon/</a
+              >
+              <span class="project-item-descr"
+                >.................................[ JavaScript ]</span
+              >
+            </li>
+            <li class="project-item">
+              <a href="#" class="project-item-link"
+                >https://big.project3.coming.soon</a
+              >
+              <span class="project-item-descr"
+                >...................................[ React.js, Node.js ]</span
+              >
+            </li>
+          </ol>
+        </div>
+        <!-- Work experience -->
+        <div class="work-experience-container">
+          <h3 class="main-content-title">Work Experience</h3>
+          <!-- Company 1 -->
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Front-End Developer
+              <span class="work-experience-company">Freelance</span>
+            </h4>
+            <p class="work-period">April 2022 - up to now | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Developing and maintaining client-side web applications
+              </li>
+              <li class="work-duties">
+                Closely work with design team and developers to implement new
+                features
+              </li>
+              <li class="work-duties">
+                Write clean, efficient code to ensure the system runs smoothly
+                and efficiently
+              </li>
+              <li class="work-duties">
+                Stay up-to-date on the latest frameworks and UI trends and
+                technologies
+              </li>
+            </ul>
+          </div>
+          <!-- Company 2 -->
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Huawei device Performance optimization manager
+              <span class="work-experience-company">Huawei Technologies</span>
+            </h4>
+            <p class="work-period">March 2020 - March 2022 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Test new features and existing functionality
+              </li>
+              <li class="work-duties">Troubleshoot issues and bugs</li>
+              <li class="work-duties">
+                Defining and optimizing the test methodology base on company
+                requirement rules
+              </li>
+              <li class="work-duties">
+                Executing the load, performance, endurance and stress tests and
+                analyzing the results for new upcoming Huawei devices
+              </li>
+              <li class="work-duties">
+                Developing and maintaining representative test datasets
+              </li>
+              <li class="work-duties">
+                Performance Testing (JMeter or similar)
+              </li>
+            </ul>
+          </div>
+
+          <!-- Company 3 -->
+          <div class="work-experience-place">
+            <h4 class="work-experience-position">
+              Delivery&service manager
+              <span class="work-experience-company">Huawei Technologies</span>
+            </h4>
+            <p class="work-period">March 2009 - March 2020 | Ukraine</p>
+            <ul class="work-duties-list">
+              <li class="work-duties">
+                Contract management for enterprise business account (Making
+                plans, review contracts, making forecast and estimating budgets
+                and timescales, put orders into production, control terms of
+                production and fulfilment center, customs clearance and goods
+                certification support to customer)
+              </li>
+              <li class="work-duties">
+                Logistic service provider management (LSP performance evaluation
+                and perfor-mance improvement, tender release, control OTD, OTD1
+                KPI, CIAG, export to HK(China), fire safety quarterly check and
+                report)
+              </li>
+              <li class="work-duties">
+                Service management, reverse&scrap compliance (Producing plans,
+                forecast and estimating budgets and timescales, return of broken
+                parts to HK, CIAG)
+              </li>
+              <li class="work-duties">
+                Internal control maturity (Self check for key negative events)
+                implementation of an automated risk & control management tool
+              </li>
+              <li class="work-duties">
+                Enhance department abilities (Provide training to staff and make
+                PPT to easy expla-nation about flow)
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="education-container">
+          <h3 class="main-content-title">Education</h3>
+          <div>
+            <h4 class="education-place">State Economic University</h4>
+            <h5 class="education-specialisation">
+              International Economic Relations
+            </h5>
+            <p class="work-period">September 1999 - June 2004 | Ukraine</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <img
+          src="./img/My photo.jpg"
+          alt="My photo"
+          width="370px"
+          class="my-photo"
+        />
+
+        <!-- Contacts -->
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
+          <p class="contacts-item">
+            <span class="contacts-type">C: </span>
+            <a href="tel:+380969904816" class="contacts-number"
+              >+380 95 990 8888</a
+            >
+          </p>
+          <p class="contacts-item">
+            <span class="contacts-type">E: </span>
+            <a href="mailto:p.bohdanov@gmail.com" class="contacts-email"
+              >mailbox@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <!-- Tech skills -->
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">HTML5</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">CSS3</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GIT</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">WebPack</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">JavaScript</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">React.js</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+        <!-- Soft Skills -->
+        <div class="soft-skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
+          <ul class="skills-list">
+            <li class="skills-list-item">
+              <span class="skills-list-text">Scrum</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Agile</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">GTD</span>
+            </li>
+            <li class="skills-list-item">
+              <span class="skills-list-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
