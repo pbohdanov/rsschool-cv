@@ -61,7 +61,7 @@ body {
 
 /* Projects */
 
-.project-item {
+/* .project-item {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -72,20 +72,20 @@ body {
 .project-list {
   margin: 0;
   padding: 0 0 0 16px;
-}
-
+} */
+/* 
 .projects-container {
   margin-bottom: 48px;
-}
+} */
 
-.project-item-descr {
+/* .project-item-descr {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-}
-
+} */
+/* 
 .project-item-link {
   font-style: normal;
   font-weight: 400;
@@ -93,7 +93,7 @@ body {
   line-height: 24px;
   text-decoration-line: underline;
   color: #005fff;
-}
+} */
 
 /* Work experience */
 
