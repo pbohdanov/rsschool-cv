@@ -17,23 +17,29 @@
     <title>My resume</title>
   </head>
   <body>
-    <header>
-      <!-- <nav class="menu-nav">
-        <ul class="menu list">
-          <li>
-            <a href="./index.html" class="nav-list link active-page"
-              >Work Experience</a
-            >
-          </li>
-          <li>
-            <a href="./portfolio.html" class="nav-list link">Contacts</a>
-          </li>
-          <li>
-            <a href="" class="nav-list link">Education</a>
-          </li>
-        </ul>
-      </nav> -->
-    </header>
+    <div class="header-wrapper">
+      <header>
+        <nav class="header-menu-nav">
+          <ul class="header-menu list link">
+            <li class="header-nav-link">
+              <a href="#work-experience" class="nav-list link"
+                >Work Experience</a
+              >
+            </li>
+            <li class="header-nav-link">
+              <a href="#contacts" class="nav-list link">Contacts</a>
+            </li>
+            <li class="header-nav-link">
+              <a href="#code" class="nav-list link">Code</a>
+            </li>
+            <li class="header-nav-link">
+              <a href="#edu" class="nav-list link">Education</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
     <main>
       <!-- Wrapper -->
       <div class="wrapper">
@@ -51,7 +57,9 @@
 
           <!-- Work experience -->
           <div class="work-experience-container">
-            <h3 class="main-content-title">Work Experience</h3>
+            <h3 class="main-content-title" id="work-experience">
+              Work Experience
+            </h3>
             <!-- Company 1 -->
             <div class="work-experience-place">
               <h4 class="work-experience-position">
@@ -145,7 +153,7 @@
           </div>
           <!-- My projects -->
           <div class="projects-container">
-            <h2 class="main-content-title">Code</h2>
+            <h2 class="main-content-title" id="code">Code</h2>
             <p class="my-descr">
               const salutation = function(name) { return name ? `Рад видеть,
               ${name}!` : 'Привет, друг!' }
@@ -153,7 +161,7 @@
           </div>
           <!-- Education -->
           <div class="education-container">
-            <h2 class="main-content-title">Education</h2>
+            <h2 class="main-content-title" id="edu">Education</h2>
             <div>
               <h4 class="education-place">State Economic University</h4>
               <h5 class="education-specialisation">
@@ -174,7 +182,7 @@
 
           <!-- Contacts -->
           <div class="contacts-container">
-            <h3 class="sidebar-title">Contacts</h3>
+            <h3 class="sidebar-title" id="contacts">Contacts</h3>
             <p class="contacts-item">
               <span class="contacts-type">C: </span>
               <a href="tel:+380969904816" class="contacts-number"
